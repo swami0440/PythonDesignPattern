@@ -1,0 +1,7 @@
+"""
+__init__.py file:
+This file created when we create the Package(Folder/Directory) in python.
+This file is help to interpreter that this module should be execute first where this module imported in python file
+
+
+"""
