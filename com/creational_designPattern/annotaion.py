@@ -14,7 +14,7 @@ Note:- This is just the way of provide the information about function.
 
 """
 
-
+#%%
 def func(a: int, b: int) -> str:
     return a + b
 
@@ -22,6 +22,7 @@ def func(a: int, b: int) -> str:
 print(func("abc", "pqr"))
 print(type(func("abc", "pqr")))
 
-# __annotation__ is the inbuilt function, Which is return the dictionary about the annotation information
+#%% __annotation__ is the inbuilt function, Which is return the dictionary about the annotation information
 # eg: {'a': <class 'int'>, 'b': <class 'int'>, 'return': <class 'str'>}
+
 print(func.__annotations__)
